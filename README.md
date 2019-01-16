@@ -20,3 +20,14 @@ Implementation of roll the dice game for two players
  Buttons - start game, Roll, HOLD, Reset
  Text - Score, Round, Player's name, 
  
+# FILE ARCHITACTURE
+
+##HTML
+index.html
+##CSS
+styles.css
+#JS
+App.js
+Player.js
+Game.js
+Dice.js
