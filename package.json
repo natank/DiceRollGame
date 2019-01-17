@@ -1,0 +1,24 @@
+{
+  "name": "dicegame",
+  "version": "1.0.0",
+  "description": "Implementation of roll the dice game for two players # GAME RULES - The game has 2 players, playing in rounds - In each turn, a player rolls a dice as many times as he whishes    Each result gets added to his ROUND score.  - BUT, if the player rolls a 2, al his ROUND scrore gets lost.      After that, it's the next player's turn  - The player can choose to 'Hold', WHIC MEANS THAT HIS round SCORE GETS ADDED TO HIS GLOBAL score.    After that, it's the next player's turn.  - The first player to reach 100 points on GLOBAL score wins the game.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.4.5",
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^8.0.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-url": "^8.0.0",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
