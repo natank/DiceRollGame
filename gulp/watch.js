@@ -4,12 +4,10 @@ let gulp = require('gulp'),
 
 
 gulp.task('watch', function() {
-	runSequence('styles','browserSync', 
+	runSequence('html', 'styles','browserSync', 
 	 function(){
 	 	
- 		 gulp.watch("app/**/*.html", function() {
- 		 	browserSync.reload();
- 		 } );
+ 		 gulp.watch("Devel/app/**/*.html", ["html"]);
 
  		 gulp.watch("styles/**/*.css", ["styles"]);
 	});

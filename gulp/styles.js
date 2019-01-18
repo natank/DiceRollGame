@@ -6,7 +6,7 @@ let gulp = require('gulp'),
 		browserSync = require("./browserSync");
 	
 gulp.task("styles", function() {
-	return gulp.src('./styles/styles.css')
+	return gulp.src('Devel/app/assets/styles/styles.css')
 		.pipe(postcss([
 			cssimport,
 			cssurl,
@@ -16,7 +16,7 @@ gulp.task("styles", function() {
 			console.log(errorInfo.toString());
 			this.emit('end');
 		})
-		.pipe(gulp.dest('./app/css'))
+		.pipe(gulp.dest('Test/app/'))
 		.pipe(browserSync.reload({
 			stream: true
 		}));		

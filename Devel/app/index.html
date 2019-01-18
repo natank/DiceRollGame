@@ -2,19 +2,25 @@
 <html>
 <head>
 	<title>Roll a Dice !</title>
-	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
-	<div class="player">
+	<div class="player" id="player1-side">
 		<h1 id="player1-title" class="player__title">Player44</h1>
 		<p class="player__global-score" id="player1-global-score">0</p>	
 		<p class="player__round-score" id="player1-round-score">0</p>
 	</div>
 	
-	<div class="player"> 
+	<div class="player" id="player2-side"> 
 		<h1 id="player2-title" class="player__title">Player1</h1>
 		<p class="player__global-score" id="player2-global-score">0</p>	
 		<p class="player__round-score"  id="player2-round-score">0</p>
+	</div>
+	<div class="dashboard">
+		<button class="start">Start Game</button>
+		<button class="roll">Roll dice</button>
+		<button class="hold">Hold</button>
 	</div>
 </body>
 </html>

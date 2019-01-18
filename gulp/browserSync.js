@@ -5,7 +5,7 @@ let gulp = require('gulp'),
 gulp.task('browserSync', function() {
 	browserSync.init({
 		notify: false,
-		server: "./app"
+		server: "./test/app"
 	})
 })
 
